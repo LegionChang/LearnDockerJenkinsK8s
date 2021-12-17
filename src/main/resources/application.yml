@@ -1,0 +1,12 @@
+server:
+  port: 800
+
+spring:
+  application:
+    name: consumer
+  datasource:
+    type: com.alibaba.druid.pool.DruidDataSource      #当前数据源操作类型
+    driver-class-name: com.mysql.cj.jdbc.Driver        #mysql驱动包
+    url: jdbc:mysql://101.34.70.64:3306/payment?serverTimezone=Asia/Shanghai&useUnicode=true&characterEncoding=utf-8&useSSL=false&allowMultiQueries=true
+    username: root
+    password: Txy-123456
